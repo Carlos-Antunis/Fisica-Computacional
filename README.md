@@ -1,18 +1,18 @@
-#   **Introdução à Física Computacional**
+#   Física Computacional
 
-#   **Sobre**
+#   Sobre
 
 Este repositório é designado a fornecer fundamentos de programação para alunos de Física Computacional. Nele há três módulos, voltados à fundamentação de métodos de Computação científica.
 
-#   **Sumário**
+#   Sumário
 
-##  **Módulo 1.** Fundamentos de Computação científica
+##  Módulo 1. Fundamentos de Computação científica
 
 Capítulo 1.1. Introdução aos algoritmos
 
 Capítulo 1.2. Utilizando o terminal linux
 
-##  **Módulo 2.** Elementos de programação em C
+##  Módulo 2. Elementos de programação em C
 
 Capítulo 2.1. Introdução à linguagem C
 
@@ -28,7 +28,7 @@ Capítulo 2.6. Arquivos
 
 Capítulo 2.7. Funções e subrotinas
 
-##  **Módulo 3.** Elementos de programação em FORTRAN
+##  Módulo 3. Elementos de programação em FORTRAN
 
 Capítulo 3.1. Introdução à linguagem FORTRAN
 
