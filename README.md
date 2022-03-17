@@ -1,4 +1,4 @@
-#   Física Computacional
+#   Métodos Computacionais para Físicos
 
 #   Sobre
 
