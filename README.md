@@ -23,4 +23,4 @@ Capítulo 1.2. [Elementos do terminal linux](./1/2/main.md)
 > - Acessar diretórios e arquivos no sistema
 > - Manipular diretórios e arquivos no sistema
 > 
-> assim, ao fim deste capítulo o leitor deve ser capaz de manipular arquivos e diretórios na memória de seu computador facilmente.
+> assim, ao fim deste capítulo o leitor deve ser capaz de navegar e manipular arquivos na memória de seu computador facilmente por meio do terminal linux.
