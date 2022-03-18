@@ -4,7 +4,7 @@
 
 ##  Módulo 1. Introdução à computação
 
-Capítulo 1.1. [Introdução à lógica de programação](./1/1/main.md)
+Capítulo 1.1. [Introdução à lógica de programação](./Introducao/1/main.md)
 
 > O objetivo deste capítulo é apresentar elementos de lógica de programação, nele abordaremos temas como:
 > 
@@ -14,7 +14,7 @@ Capítulo 1.1. [Introdução à lógica de programação](./1/1/main.md)
 > 
 > de modo que ao final deste capítulo desejamos que o leitor seja capaz de compreender e estrutrar algoritmos com certa facilidade e transcrevê-los em formato de fluxograma ou pseudocódigo.
 
-Capítulo 1.2. [Elementos do terminal linux](./1/2/main.md)
+Capítulo 1.2. [Elementos do terminal linux](./Introducao/2/main.md)
 
 > Para este capítulo desejamos apresentar comandos básicos do terminal linux possibilitando ao leitor, por meio do terminal:
 > 
