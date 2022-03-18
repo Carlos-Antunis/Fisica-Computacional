@@ -20,6 +20,8 @@ Neste capítulo aprenderemos os comandos mais básicos para se utilizar no termi
 
 Capítulo 2.1. [Introdução à linguagem C](./2-C/2.1/main.md)
 
+Neste capítulo se introduzirão as bases da linguagem C, a estrutura base de um código em linguagem C, além de como podemos executar um programa básico cujo código-fonte fora escrito em linguagem C.
+
 Capítulo 2.2. [Tipos de dados e operadores](./2-C/2.2/main.md)
 
 Capítulo 2.3. [Construtos condicionais](./2-C/2.3/main.md)
@@ -47,3 +49,4 @@ Capítulo 3.5. [Estruturas de dados](./3-FORTRAN/3.5/main.md)
 Capítulo 3.6. [Arquivos](./3-FORTRAN/3.6/main.md)
 
 Capítulo 3.7. [Funções e subrotinas](./3-FORTRAN/3.7/main.md)
+
