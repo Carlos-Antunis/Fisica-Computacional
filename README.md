@@ -45,7 +45,7 @@ Capítulo 2.1. [Introdução à linguagem C](./C/1/main.md)
 > - Estrutura básica de um código-fonte em C
 > - Variáveis e tipos elementares de dados
 > - Formas de se operar dados na linguagem C
-> - Integrações do FORTRAN com o terminal
+> - Integrações do C com o terminal
 > - Funções matemáticas básicas na linguagem C
 >
 > dessa forma, ao fim deste capítulo, o leitor deve ser capaz de computar facilmente problemas simples com a linguagem C.
