@@ -1,1 +1,1 @@
-# Manipulação de arquivos em C
+# Tipos avançados de dados em C
