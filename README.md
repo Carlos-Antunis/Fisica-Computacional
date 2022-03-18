@@ -34,7 +34,7 @@ Capítulo 2.4. [Construtos de Repetição](./2-C/2.4/main.md)
 
 Neste capítulo nos ateremos aos blocos de comandos que ocorrem repetidamente na linguagem C, os chamados construtos de repetição.
 
-Capítulo 2.6. [Arquivos](./2-C/2.6/main.md)
+Capítulo 2.5. [Arquivos](./2-C/2.6/main.md)
 
 Neste capítulo iremos abordar os arquivos em linguagem C, como abrir e fechar arquivos além de manipular seus conteúdos.
 
