@@ -1,1 +1,1 @@
-# Utilizando o terminal linux
+# Elementos do terminal linux
