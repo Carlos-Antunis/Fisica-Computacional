@@ -117,3 +117,24 @@ Capítulo 2.8. [Manipulação de arquivos em C](./C/4/main.md)
 > - Manipulação do conteúdo de um arquivo
 >
 > de tal maneira que ao fim deste capítulo o leitor deverá ser apto a manipular arquivos e seu conteúdo.
+
+### Funções e subrotinas
+
+Capítulo 2.9. [Funções e subrotinas em FORTRAN](./FORTRAN/5/main.md)
+
+> No presente capítulo abordaremos aspectos sobre a construção de funções e subrotinas na linguagem FORTRAN, nele veremos:
+>
+> - Funções e subrotinas
+> - Recursividade
+> - Módulos de código
+>
+> ao fim deste capítulo acreditamos que o leitor será capaz de modularizar seu código com facilidade.
+
+Capítulo 2.10. [Funções e subrotinas em C](./C/5/main.md)
+
+> No presente capítulo abordaremos aspectos sobre a construção de funções e subrotinas na linguagem C, nele veremos:
+>
+> - Funções e subrotinas
+> - Módulos de código
+>
+> ao fim deste capítulo acreditamos que o leitor será capaz de modularizar seu código com facilidade.
