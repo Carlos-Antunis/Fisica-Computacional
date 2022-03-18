@@ -1,1 +1,0 @@
-# Utilizando o terminal Linux
