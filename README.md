@@ -6,7 +6,7 @@ Assim, este repositório foi construindo visando fornecer fundamentos de program
 
 ##  Módulo 1. Introdução à computação
 
-Capítulo 1.1. [Introdução à lógica de programação]()
+Capítulo 1.1. [Introdução à lógica de programação](./1. Introdução à computação/1.1. Introdução à lógica de programação/main)
 
 > O objetivo deste capítulo é apresentar elementos de lógica de programação, nele abordaremos temas como:
 > 
