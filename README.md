@@ -95,3 +95,25 @@ Capítulo 2.6. [Tipos avançados de dados em C](./C/3/main.md)
 > - Tipos derivados de dados
 >
 > assim, ao fim deste capítulo, o leitor deve possuir a capacidade de operar com tipos mais gerais de dados por intermédio da linguagem C.
+
+### Manipulação de arquivos
+
+Capítulo 2.7. [Manipulação de arquivos em FORTRAN](./FORTRAN/4/main.md)
+
+> Neste capítulo nos ateremos à manipulação de arquivos e seus conteúdos com a linguagem FORTRAN, nele veremos:
+>
+> - Arquivos
+> - Tipos de acesso a um arquivo
+> - Manipulação do conteúdo de um arquivo
+>
+> de tal maneira que ao fim deste capítulo o leitor deverá ser apto a manipular arquivos e seu conteúdo.
+
+Capítulo 2.8. [Manipulação de arquivos em C](./C/4/main.md)
+
+> Neste capítulo nos ateremos à manipulação de arquivos e seus conteúdos com a linguagem C, nele veremos:
+>
+> - Arquivos
+> - Tipos de acesso a um arquivo
+> - Manipulação do conteúdo de um arquivo
+>
+> de tal maneira que ao fim deste capítulo o leitor deverá ser apto a manipular arquivos e seu conteúdo.
