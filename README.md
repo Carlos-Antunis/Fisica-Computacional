@@ -124,7 +124,7 @@ Capítulo 2.5. [Funções e subrotinas em FORTRAN](./FORTRAN/5/main.md)
 >
 > - Funções e subrotinas
 > - Recursividade
-> - Módulos de código
+> - Inclusão de arquivos externos de código-fonte
 >
 > ao fim deste capítulo acreditamos que o leitor será capaz de modularizar seu código com facilidade.
 
@@ -133,6 +133,6 @@ Capítulo 2.5. [Funções e subrotinas em C](./C/5/main.md)
 > No presente capítulo abordaremos aspectos sobre a construção de funções e subrotinas na linguagem C, nele veremos:
 >
 > - Funções e subrotinas
-> - Módulos de código
+> - Inclusão de arquivos externos de código-fonte
 >
 > ao fim deste capítulo acreditamos que o leitor será capaz de modularizar seu código com facilidade.
