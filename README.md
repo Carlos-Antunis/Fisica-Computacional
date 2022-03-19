@@ -1,6 +1,6 @@
 #   Introdução à Computação Científica para Físicos
 
-É inegável que para um Físico a capacidade de computar medidas acerca de um dado sistema é fundamental, tanto para teóricos quanto para experimentais. Dessa forma, o aprendizado de alguma linguagem de programação básica é de vital importância no decorrer da formação acadêmica de um Físico. Este repositório foi construído visando fornecer fundamentos de programação para Físicos graduandos.
+É inegável que, para um Físico, a capacidade de computar medidas acerca de um dado sistema é fundamental, tanto para teóricos quanto para experimentais. Dessa forma, o aprendizado de alguma linguagem de programação básica é de vital importância no decorrer da formação acadêmica de um Físico. Este repositório foi construído visando fornecer fundamentos de programação para Físicos graduandos.
 
 ##  Módulo 1. Introdução à computação
 
@@ -22,6 +22,7 @@ Capítulo 1.2. [Elementos do terminal linux](./Introducao/2/main.md)
 > - Manipular diretórios e arquivos no sistema
 > 
 > assim, ao fim deste capítulo o leitor deve ser capaz de navegar e manipular arquivos na memória de seu computador facilmente por meio do terminal linux.
+
 ## Módulo 2. Elementos de programação
 
 ### Introdução à programação
