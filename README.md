@@ -1,4 +1,4 @@
-# **FÍSICA COMPUTACIONAL**
+# **MÉTODOS DE FÍSICA COMPUTACIONAL**
 
 A Física Computacional consiste no ramo da Física teórica moderna que se utiliza de algoritmos numéricos para a obtenção de resultados, os quais seriam muito complexos, ou até impossíveis, de se obter analíticamente. Problemas envolvendo Física avançada são geralmente muito difíceis de se resolver exatamente, de tal maneira que a implementação de rotinas computacionais torna-se vital para um Físico teórico atualmente.
 
