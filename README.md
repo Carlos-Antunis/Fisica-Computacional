@@ -37,6 +37,7 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 >   - Entrada e saída padrão
 >   - Entrada e saída por arquivo
 
+<!--
 ### **CONTROLE DE FLUXO**
 
 #### *Capítulo 1.3.* [Controle de fluxo em C](./IFC/1.3/C.md)
