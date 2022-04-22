@@ -4,7 +4,7 @@ Programa para obter a área de um polígono regular de N lados inscrito numa cir
 */
 #include <stdio.h>
 #include <math.h>
-int main(void)
+int main()
 {
 	double const pi = 3.14159265359;
 	double Raio_do_Circulo, Apotema, Lado_do_Poligono, Angulo, Perimetro, Area_do_Poligono;
