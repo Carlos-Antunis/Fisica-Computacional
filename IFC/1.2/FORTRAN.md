@@ -234,7 +234,6 @@ Podemos, em FORTRAN utilizar as seguintes funções matemáticas:
 
 - **`atanh(x)`**: recebe como parâmetro um número de qualquer tipo e retorna  o valor do número cuja tangente hiperbólica é x.
 
-
 > **EXERCÍCIO 2.** Implemente um Código-fonte FORTRAN para computar o valor da área de um polígono regular inscrito num circulo.
 >
 >[Resposta](./programas/poligono.f90)
