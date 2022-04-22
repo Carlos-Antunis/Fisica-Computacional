@@ -30,6 +30,7 @@ PROGRAM area_do_poligono_inscrito
 	!Calcular a área do polígono
 	Area_do_Poligono = Perimetro * Apotema / 2.0
 
+	!Retornar a area do poligono
 	PRINT*, "A area do poligono vale: ", Area_do_Poligono
 
 END PROGRAM area_do_poligono_inscrito
