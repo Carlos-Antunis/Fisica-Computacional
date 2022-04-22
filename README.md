@@ -26,8 +26,8 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 
 #### *Capítulo 1.2.* [Elementos de programação em FORTRAN](./IFC/1.2/FORTRAN.md)
 
-> - Estrutura de um código-fonte em FORTRAN 90
->   - Executando um programa em FORTRAN 90
+> - Estrutura de um código-fonte em FORTRAN
+>   - Executando um programa em FORTRAN
 > - Variáveis e operadores
 >   - Tipos elementares de dados
 > - Entrada e saída de dados
