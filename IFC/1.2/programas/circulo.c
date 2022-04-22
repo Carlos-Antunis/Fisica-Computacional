@@ -3,7 +3,7 @@ Autor: Carlos Antunis Bonfim da Silva Santos
 Programa para obter a área de um círculo inscrito num quadrado de lado L
 */
 #include<stdio.h>
-int main(void) {
+int main() {
     double const pi = 3.14159265359;
     double Lado_do_Quadrado, Raio_do_Circulo, Area_do_Circulo;
 
