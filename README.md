@@ -22,8 +22,6 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 > - Variáveis e operadores
 >   - Tipos elementares de dados
 > - Entrada e saída de dados
->   - Entrada e saída padrão
->   - Entrada e saída por arquivo
 > - Funções matemáticas
 
 #### *Capítulo 1.2.* [Elementos de programação em FORTRAN](./IFC/1.2/FORTRAN.md)
@@ -33,8 +31,6 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 > - Variáveis e operadores
 >   - Tipos elementares de dados
 > - Entrada e saída de dados
->   - Entrada e saída padrão
->   - Entrada e saída por arquivo
 > - Funções matemáticas
 
 <!--
