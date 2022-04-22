@@ -396,3 +396,7 @@ onde estão definidas as seguintes funções:
 - **`catan(z)`**: recebe como parâmetro uma variável do tipo `double _Complex` e retorna em tipo `double _Complex` o valor do arco cuja tangente é x.
 
 - **`catanh(z)`**: recebe como parâmetro uma variável do tipo `double _Complex` e retorna em tipo `double _Complex` o valor do número cuja tangente hiperbólica é z.
+
+> **EXERCÍCIO 2.** Implemente um Código-fonte C para computar o valor da área de um polígono regular inscrito num circulo.
+>
+>[Resposta](./programas/poligono.c)
