@@ -37,25 +37,25 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 
 #### *Capítulo 1.3.* [Controle de fluxo em C](./IFC/1.3/C.md)
 
+> - Estruturas condicionais
+>   - Estrutura if
 > - Estruturas de repetição
 >   - Estrutura for
 >   - Estrutura while
 > - Arrays
 >   - Listas e matrizes
 >   - Construtores
-> - Estruturas condicionais
->   - Estrutura if
 
 #### *Capítulo 1.3.* [Controle de fluxo em FORTRAN](./IFC/1.3/FORTRAN.md)
 
+> - Estruturas condicionais
+>   - Estrutura if
 > - Estruturas de repetição
 >   - Estrutura do
 >   - Estrutura do while
 > - Arrays
 >   - Listas e matrizes
 >   - Construtores
-> - Estruturas condicionais
->   - Estrutura if
 
 <!--
 ### **FUNÇÕES E SUBROTINAS**
