@@ -95,6 +95,11 @@ while (/*expressão lógica*/) {
 */
 }
 ```
+
+> **EXERCÍCIO 2.** Implemente um Código-fonte C para computar o gráfico de bifurcações do mapa logístico.
+>
+>[Resposta](./programas/mapa_logistico.c)
+
 ### ***COMANDO*** *break*
 
 Para se encerrar uma estrutura de repetição de imediato, utilizamos o comando `break`
