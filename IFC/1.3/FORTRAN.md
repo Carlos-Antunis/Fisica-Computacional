@@ -6,7 +6,7 @@
 ### ***CONSTRUTO*** *if*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF.svg">
+  <img style = "width: 450px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF.svg">
 </div>
 
 Para se executar um bloco de comandos apenas caso se satisfaça uma dada condição utilizamos o construto `IF ... THEN`
@@ -22,7 +22,7 @@ ENDIF
 ### ***CONSTRUTO*** *if-else*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-left: 2.5rem;" align = "right" src="./images/Construto IF-ELSE.svg">
+  <img style = "width: 450px; margin-left: 2.5rem;" align = "right" src="./images/Construto IF-ELSE.svg">
 </div>
 
 Para se executar blocos de comandos distintos caso uma dada condição se satisfaça ou não utilizamos do construto `IF ... THEN-ELSE`
@@ -42,24 +42,18 @@ ENDIF
 ### ***CONSTRUTO*** *if-else if-else*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF-ELSEIF-ELSE.svg">
+  <img style = "width: 450px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF-ELSEIF-ELSE.svg">
 </div>
 
 Para se executar blocos de comando para um caso dentre vários possíveis utilizamos o construto `IF ... THEN-ELSEIF ... THEN-ELSE`
 
 ```fortran
 IF (expressão lógica) THEN
-
     !Bloco de processos caso if
-
 ELSEIF (expressão lógica 2) THEN
-
     !Bloco de processos caso else if
-
 ELSE
-
     !Bloco de processos caso else
-
 ENDIF
 ```
 
@@ -72,7 +66,7 @@ ENDIF
 ### ***CONSTRUTO*** *do*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-left: 2.5rem;" align = "right" src="./images/Construto DO.svg">
+  <img style = "width: 450px; margin-left: 2.5rem;" align = "right" src="./images/Construto DO.svg">
 </div>
 
 Para se executar um bloco de comandos de forma repetitiva uma dada quantidade de vezes utilizamos o construto `DO`
@@ -86,6 +80,20 @@ ENDDO
 ```
 
 ### ***CONSTRUTO*** *do while*
+
+<div style = "display: flex-box;width: 300">
+  <img style = "width: 400px; margin-right: 2.5rem;" align = "left" src="./images/Construto WHILE.svg">
+</div>
+
+Para se executar um bloco de comandos de forma repetitiva enquanto uma dada condição for satisfeita utilizamos do construto `DO WHILE`
+
+```fortran
+DO WHILE (expressão lógica)
+
+    !Bloco de processos
+
+ENDDO
+```
 
 ### ***COMANDO*** *exit*
 
