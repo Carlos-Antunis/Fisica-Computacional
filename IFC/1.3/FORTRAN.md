@@ -237,7 +237,7 @@ Podemos especificar, assim como em `IF ... THEN-ELSE` as operações a serem fei
 WHERE (condição)
     !Bloco de operações 1
 ELSEWHERE
-    !Bloco de operações 1
+    !Bloco de operações 2
 ENDWHERE
 ```
 
