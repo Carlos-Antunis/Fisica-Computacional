@@ -9,7 +9,7 @@
   <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/construto IF.svg">
 </div>
 
-Para se executar um bloco de comandos apenas caso se satisfaça uma dada condição utilizamos a estrutura `IF`
+Para se executar um bloco de comandos apenas caso se satisfaça uma dada condição utilizamos a estrutura `IF ... THEN`
 
 ```fortran
 IF (expressão lógica) THEN
@@ -25,7 +25,7 @@ ENDIF
   <img style = "width: 550px; margin-left: 2.5rem;" align = "right" src="./images/construto IF-ELSE.svg">
 </div>
 
-Para se executar blocos de comandos distintos caso uma dada condição se satisfaça ou não utilizamos da estrutura `IF-ELSE`
+Para se executar blocos de comandos distintos caso uma dada condição se satisfaça ou não utilizamos da estrutura `IF ... THEN-ELSE`
 
 ```fortran
 IF (expressão lógica) THEN
@@ -45,14 +45,14 @@ ENDIF
   <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/construto IF-ELSEIF-ELSE.svg">
 </div>
 
-Para se executar blocos de comando para um caso dentre vários possíveis utilizamos a estrutura `IF-ELSE IF-ELSE`
+Para se executar blocos de comando para um caso dentre vários possíveis utilizamos a estrutura `IF ... THEN-ELSEIF ... THEN-ELSE`
 
 ```fortran
 IF (expressão lógica) THEN
 
     !Bloco de processos caso if
 
-ELSE IF (expressão lógica 2) THEN
+ELSEIF (expressão lógica 2) THEN
 
     !Bloco de processos caso else if
 
