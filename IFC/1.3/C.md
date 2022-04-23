@@ -16,7 +16,7 @@ Para se executar um bloco de comandos apenas caso se satisfaça uma dada condiç
 if (/*expressão lógica*/)
 {
 /*
-    Bloco de comandos
+    Bloco de processos
 */
 }
 ```
@@ -32,11 +32,11 @@ Para se executar blocos de comandos distintos caso uma dada condição se satisf
 ```c
 if (/*expressão lógica*/) {
 /*
-    Bloco de comandos caso VERDADEIRO
+    Bloco de processos caso VERDADEIRO
 */
 } else {
 /*
-    Bloco de comandos caso FALSO
+    Bloco de processos caso FALSO
 */
 }
 ```
@@ -52,15 +52,15 @@ Para se executar blocos de comando para um caso dentre vários possíveis utiliz
 ```c
 if (/*expressão lógica*/) {
 /*
-    Bloco de comandos caso if
+    Bloco de processos caso if
 */
 } else if (/*expressão lógica 2*/) {
 /*
-    Bloco de comandos caso else if
+    Bloco de processos caso else if
 */
 } else {
 /*
-    Bloco de comandos caso else
+    Bloco de processos caso else
 */
 }
 ```
