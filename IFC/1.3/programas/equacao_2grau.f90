@@ -3,7 +3,7 @@
 PROGRAM Solucao_da_equacao_quadratica
 	IMPLICIT NONE
 	DOUBLE PRECISION :: A,B,C
-	DOUBLE PRECISION :: Descriminante
+	DOUBLE PRECISION :: Descriminante, Raiz_do_Descriminante
 	DOUBLE PRECISION :: Solucao_1, Solucao_2
 
 	!Obter os coeficientes
@@ -19,9 +19,9 @@ PROGRAM Solucao_da_equacao_quadratica
 
 	IF (Descriminante .gt. 0.0) THEN
 		!Caso o descriminante seja nulo há duas soluções
-		Descriminante = sqrt(Descriminante)
-		Solucao_1 = (-B - Descriminante)/(2.0*A)
-		Solucao_2 = (-B + Descriminante)/(2.0*A)
+		Raiz_do_Descriminante = sqrt(Descriminante)
+		Solucao_1 = (-B - Raiz_do_Descriminante)/(2.0*A)
+		Solucao_2 = (-B + Raiz_do_Descriminante)/(2.0*A)
 
 		!Retornar a solução
 		PRINT*, "as solucoes sao x =", Solucao_1, " e x =", Solucao_2
