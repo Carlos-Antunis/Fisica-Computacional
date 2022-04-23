@@ -97,7 +97,11 @@ ENDDO
 
 ### ***COMANDO*** *exit*
 
+Para se encerrar uma estrutura de repetição de imediato, utilizamos o comando `EXIT`
+
 ### ***COMANDO*** *cycle*
+
+Para se encerrar a atual repetição e seguir à próxima, utilizamos o comando `CYCLE`
 
 ## **ARRAYS**
 
