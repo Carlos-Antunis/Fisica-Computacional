@@ -95,6 +95,10 @@ DO WHILE (expressão lógica)
 ENDDO
 ```
 
+> **EXERCÍCIO 2.** Implemente um Código-fonte FORTRAN para computar o gráfico de bifurcações do mapa logístico.
+>
+>[Resposta](./programas/mapa_logistico.f90)
+>
 ### ***COMANDO*** *exit*
 
 Para se encerrar uma estrutura de repetição de imediato, utilizamos o comando `EXIT`
