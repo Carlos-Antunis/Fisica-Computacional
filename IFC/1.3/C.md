@@ -73,11 +73,11 @@ if (/*expressão lógica*/) {
 
 ### ***ESTRUTURA*** *for*
 
-### ***ESTRUTURA*** *while*
-
 ### ***COMANDO*** *break*
 
 ### ***COMANDO*** *continue*
+
+### ***ESTRUTURA*** *while*
 
 ## **ARRAYS**
 
