@@ -71,11 +71,25 @@ ENDIF
 
 ### ***ESTRUTURA*** *do*
 
+<div style = "display: flex-box;width: 300">
+  <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/construto DO.svg">
+</div>
+
+Para se executar um bloco de comandos de forma repetitiva uma dada quantidade de vezes utilizamos a estrutura `DO`
+
+```fortran
+DO var = inicial, final, inc
+
+    !Bloco de processos
+
+ENDDO
+```
+
+### ***ESTRUTURA*** *do while*
+
 ### ***COMANDO*** *exit*
 
 ### ***COMANDO*** *cycle*
-
-### ***ESTRUTURA*** *do while*
 
 ## **ARRAYS**
 
