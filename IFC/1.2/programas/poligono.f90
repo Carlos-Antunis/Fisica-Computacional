@@ -7,11 +7,11 @@ PROGRAM area_do_poligono_inscrito
 	DOUBLE PRECISION :: Raio_do_Circulo, Apotema, Lado_do_Poligono, Angulo, Perimetro, Area_do_Poligono
 	INTEGER :: Numero_de_Lados_do_Poligono
 
-	!Obter o valor do raio do circulo
+	!Obter o valor do raio do círculo
 	PRINT*, "Insira o valor do raio do circulo: "
 	READ*, Raio_do_Circulo
 
-	!Obter a quantidade de lados do poligono inscrito
+	!Obter a quantidade de lados do polígono inscrito
 	PRINT*, "Insira o numero de lados do poligono inscrito: "
 	READ*, Numero_de_Lados_do_Poligono
 
@@ -21,7 +21,7 @@ PROGRAM area_do_poligono_inscrito
 	!Calcular o lado do polígono
 	Lado_do_Poligono = 2.0 * Raio_do_Circulo * sin(Angulo)
 
-	!Calcular a apotema do poligono
+	!Calcular a apotema do polígono
 	Apotema = Raio_do_Circulo * cos(Angulo)
 
 	!Calcular o perímetro do polígono
@@ -30,7 +30,7 @@ PROGRAM area_do_poligono_inscrito
 	!Calcular a área do polígono
 	Area_do_Poligono = Perimetro * Apotema / 2.0
 
-	!Retornar a area do poligono
+	!Retornar a área do polígono
 	PRINT*, "A area do poligono vale: ", Area_do_Poligono
 
 END PROGRAM area_do_poligono_inscrito
