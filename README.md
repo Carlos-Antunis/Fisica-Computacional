@@ -53,9 +53,7 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 >   - Estrutura do while
 > - Arrays
 >   - Listas e matrizes
->   - Submatrizes
 >   - Construtores
->   - Matrizes alocáveis
 > - Estruturas condicionais
 >   - Estrutura if
 
