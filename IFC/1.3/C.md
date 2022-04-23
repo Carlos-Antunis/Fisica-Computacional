@@ -6,10 +6,6 @@
 
 ### ***ESTRUTURA*** *if*
 
-<div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/construto condicional - IF.svg">
-</div>
-
 Para se executar um bloco de comandos apenas caso se satisfaça uma dada condição utilizamos a estrutura `if`
 
 ```c
