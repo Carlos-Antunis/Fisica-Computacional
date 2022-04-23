@@ -3,13 +3,13 @@
 [Voltar ao sumário](../../README.md)
 ## **ESTRUTURAS CONDICIONAIS**
 
-### ***ESTRUTURA*** *if*
+### ***CONSTRUTO*** *if*
 
 <div style = "display: flex-box;width: 300">
   <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF.svg">
 </div>
 
-Para se executar um bloco de comandos apenas caso se satisfaça uma dada condição utilizamos a estrutura `IF ... THEN`
+Para se executar um bloco de comandos apenas caso se satisfaça uma dada condição utilizamos o construto `IF ... THEN`
 
 ```fortran
 IF (expressão lógica) THEN
@@ -19,13 +19,13 @@ IF (expressão lógica) THEN
 ENDIF
 ```
 
-### ***ESTRUTURA*** *if-else*
+### ***CONSTRUTO*** *if-else*
 
 <div style = "display: flex-box;width: 300">
   <img style = "width: 550px; margin-left: 2.5rem;" align = "right" src="./images/Construto IF-ELSE.svg">
 </div>
 
-Para se executar blocos de comandos distintos caso uma dada condição se satisfaça ou não utilizamos da estrutura `IF ... THEN-ELSE`
+Para se executar blocos de comandos distintos caso uma dada condição se satisfaça ou não utilizamos do construto `IF ... THEN-ELSE`
 
 ```fortran
 IF (expressão lógica) THEN
@@ -39,13 +39,13 @@ ELSE
 ENDIF
 ```
 
-### ***ESTRUTURA*** *if-else if-else*
+### ***CONSTRUTO*** *if-else if-else*
 
 <div style = "display: flex-box;width: 300">
   <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF-ELSEIF-ELSE.svg">
 </div>
 
-Para se executar blocos de comando para um caso dentre vários possíveis utilizamos a estrutura `IF ... THEN-ELSEIF ... THEN-ELSE`
+Para se executar blocos de comando para um caso dentre vários possíveis utilizamos o construto `IF ... THEN-ELSEIF ... THEN-ELSE`
 
 ```fortran
 IF (expressão lógica) THEN
@@ -69,13 +69,13 @@ ENDIF
 
 ## **ESTRUTURAS DE REPETIÇÃO**
 
-### ***ESTRUTURA*** *do*
+### ***CONSTRUTO*** *do*
 
 <div style = "display: flex-box;width: 300">
   <img style = "width: 550px; margin-left: 2.5rem;" align = "right" src="./images/Construto DO.svg">
 </div>
 
-Para se executar um bloco de comandos de forma repetitiva uma dada quantidade de vezes utilizamos a estrutura `DO`
+Para se executar um bloco de comandos de forma repetitiva uma dada quantidade de vezes utilizamos o construto `DO`
 
 ```fortran
 DO var = inicial, final, inc
@@ -85,7 +85,7 @@ DO var = inicial, final, inc
 ENDDO
 ```
 
-### ***ESTRUTURA*** *do while*
+### ***CONSTRUTO*** *do while*
 
 ### ***COMANDO*** *exit*
 
