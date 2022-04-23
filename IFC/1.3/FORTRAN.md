@@ -88,7 +88,8 @@ ENDDO
 > **EXERCÍCIO 2.** Implemente um Código-fonte FORTRAN para computar o gráfico de bifurcações do mapa logístico.
 >
 >[Resposta](./programas/mapa_logistico.f90)
->
+
+
 ### ***COMANDO*** *exit*
 
 Para se encerrar uma estrutura de repetição de imediato, utilizamos o comando `EXIT`
@@ -239,3 +240,7 @@ ELSEWHERE
     !Bloco de operações 1
 ENDWHERE
 ```
+
+> **EXERCÍCIO 3.** Implemente um Código-fonte FORTRAN para computar os números primos entre 2 e 100 pelo crivo de Eratóstenes.
+>
+>[Resposta](./programas/crivo.f90)
