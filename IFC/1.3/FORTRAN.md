@@ -63,6 +63,24 @@ ELSE
 ENDIF
 ```
 
+> **EXERCÍCIO 1.** Implemente um Código-fonte FORTRAN para computar, caso hajam, as raízes de uma equação de segundo grau sabendo seus coeficientes.
+>
+>[Resposta](./programas/equacao_2grau.f90)
+
 ## **ESTRUTURAS DE REPETIÇÃO**
 
+### ***ESTRUTURA*** *do*
+
+### ***ESTRUTURA*** *do while*
+
+### ***COMANDO*** *exit*
+
+### ***ESTRUTURA*** *cycle*
+
 ## **ARRAYS**
+
+### ***LISTAS***
+
+### ***MATRIZES***
+
+### ***CONSTRUTORES***
