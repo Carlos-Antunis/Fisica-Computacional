@@ -101,10 +101,107 @@ Para se encerrar a atual repetição e seguir à próxima, utilizamos o comando 
 
 ### ***LISTAS***
 
+Para se armazenar uma lista de variáveis de um mesmo tipo, utilizamos: 
+
+```fortran
+TIPO :: Lista_de_Variaveis(Quantidade)
+```
+```fortran
+TIPO, dimension(Quantidade) :: Lista_de_Variaveis
+```
+
+Podemos definir listas com índices num intervalo específico por
+
+```fortran
+TIPO :: Lista_de_Variaveis(i_Minimo : i_Maximo)
+```
+
+Podemos acessar o valor de uma lista por meio do operador **()**
+
+```fortran
+!atribui valor ao i-ésimo elemento na lista
+Lista(i) = valor
+```
+
 ### ***MATRIZES***
 
-### ***CONSTRUTORES***
+Para se armazenar uma matrizes de variáveis de um mesmo tipo, utilizamos: 
 
+```fortran
+TIPO :: Matriz_de_Variaveis(Linhas,Colunas)
+```
+```fortran
+TIPO, dimension(Linhas,Colunas) :: Matriz_de_Variaveis
+```
+
+Podemos definir matrizes com índices num intervalo específico por
+
+```fortran
+TIPO :: Matriz_de_Variaveis(i_Minimo : i_Maximo, j_Minimo : j_Maximo)
+```
+
+Podemos acessar o valor de uma matriz por meio do operador **()**
+
+```fortran
+!atribui valor ao (i,j)-ésimo elemento na matriz
+Matriz(i,j) = valor
+```
+
+### ***OPERAÇÕES***
+
+Podemos atribuir valores a um array por meio do operador **=**
+
+```fortran
+Array = Array_1                     !atribuição
+```
+
+Podemos operar aritmeticamente sobre arrays
+
+```fortran
+Array = Array_1 + Array_2           !operação de soma
+Array = Array_1 - Array_2           !operação de subtração
+Array = Numero * Array_1            !operação de multiplicação
+Array = Array_1 / Numero            !operação de divisão
+```
+
+### **SUBARRAYS**
+
+Podemos acessar sublistas de uma lista
+
+```fortran
+!atribui à lista de elementos entre o n-ésimo e o m-ésimo elemento
+!como Lista_1
+Lista(n:m) = Lista_1
+```
+
+Podemos acessar submatrizes de uma matriz
+
+```fortran
+!atribui à lista de elementos da i-ésima linha entre a l-ésima e a
+!p-ésima coluna como Lista_1
+Matriz(i)(l:p) = Lista_1
+
+!atribui à lista de elementos da j-ésima coluna entre a n-ésima e
+!a m-ésima linha como Lista_1
+Matriz(n:m)(j) = Lista_1
+
+!atribui à matriz de elementos entre a n-ésima e a n-ésima linha e
+!entre a l-ésima e a p-ésima coluna como Matriz_1
+Matriz(n:m)(l:p) = Matriz_1
+```
+
+### **CONSTRUTORES**
+
+Podemos simplificar a construção de arrays por meio dos construtores
+
+```fortran
+!constroi a lista segundo a expressão para cada valor de I
+Array = (/(expressao, I=i_Min,i_Max)/)
+```
+```fortran
+!constroi a matriz segundo a expressão para cada valor de I e J
+Array = (/((expressao, I=i_Min,i_Max)J=j_Min,j_Max)/)
+```
 
 ## **ESTRUTURAS MATRICIAIS**
 
