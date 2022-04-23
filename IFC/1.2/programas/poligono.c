@@ -10,14 +10,13 @@ int main()
 	double Raio_do_Circulo, Apotema, Lado_do_Poligono, Angulo, Perimetro, Area_do_Poligono;
 	unsigned Numero_de_Lados_do_Poligono;
 
-	//Obter o raio do circulo
+	//Obter o raio do círculo
 	printf("Insira o valor do raio do circulo: ");
 	scanf("%lf",&Raio_do_Circulo);
 
-	//Obter a quantidade de lados do poligono inscrito
+	//Obter a quantidade de lados do polígono inscrito
 	printf("nsira o numero de lados do poligono inscrito: ");
 	scanf("%u",&Numero_de_Lados_do_Poligono);
-
 
 	//Calcular o ângulo entre o raio e a apotema
 	Angulo = pi/Numero_de_Lados_do_Poligono;
@@ -25,7 +24,7 @@ int main()
 	//Calcular o lado do polígono
 	Lado_do_Poligono = 2.0 * Raio_do_Circulo * sin(Angulo);
 
-	//Calcular a apotema do poligono
+	//Calcular a apotema do polígono
 	Apotema = Raio_do_Circulo * cos(Angulo);
 
 	//Calcular o perímetro do polígono
@@ -34,7 +33,7 @@ int main()
 	//Calcular a área do polígono
 	Area_do_Poligono = Perimetro * Apotema / 2.0;
 
-	//Retornar a area do poligono
+	//Retornar a área do polígono
 	printf("A area do poligono vale: %lf\n", Area_do_Poligono);
 
 	return 0;
