@@ -25,7 +25,7 @@ PROGRAM Solucao_da_equacao_quadratica
 
 		!Retornar a solução
 		PRINT*, "as solucoes sao x =", Solucao_1, " e x =", Solucao_2
-	ELSE IF (Descriminante .eq. 0.0) THEN
+	ELSEIF (Descriminante .eq. 0.0) THEN
 		!Caso o descriminante seja nulo há apenas uma solução
 		Solucao_1 = -B/(2.0*A)
 
