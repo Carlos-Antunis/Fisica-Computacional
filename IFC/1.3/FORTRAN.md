@@ -75,7 +75,7 @@ ENDIF
 
 ### ***COMANDO*** *exit*
 
-### ***ESTRUTURA*** *cycle*
+### ***COMANDO*** *cycle*
 
 ## **ARRAYS**
 
