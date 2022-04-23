@@ -71,11 +71,11 @@ ENDIF
 
 ### ***ESTRUTURA*** *do*
 
-### ***ESTRUTURA*** *do while*
-
 ### ***COMANDO*** *exit*
 
 ### ***COMANDO*** *cycle*
+
+### ***ESTRUTURA*** *do while*
 
 ## **ARRAYS**
 
