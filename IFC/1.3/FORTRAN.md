@@ -171,24 +171,24 @@ Podemos acessar sublistas de uma lista
 
 ```fortran
 !atribui à lista de elementos entre o n-ésimo e o m-ésimo elemento
-!como Lista_1
-Lista(n:m) = Lista_1
+!de i em i como Lista_1
+Lista(n:m:i) = Lista_1
 ```
 
 Podemos acessar submatrizes de uma matriz
 
 ```fortran
 !atribui à lista de elementos da i-ésima linha entre a l-ésima e a
-!p-ésima coluna como Lista_1
-Matriz(i)(l:p) = Lista_1
+!p-ésima de j em j coluna como Lista_1
+Matriz(i)(l:p:j) = Lista_1
 
 !atribui à lista de elementos da j-ésima coluna entre a n-ésima e
-!a m-ésima linha como Lista_1
-Matriz(n:m)(j) = Lista_1
+!a m-ésima de i em i linha como Lista_1
+Matriz(n:m:i)(j) = Lista_1
 
-!atribui à matriz de elementos entre a n-ésima e a n-ésima linha e
-!entre a l-ésima e a p-ésima coluna como Matriz_1
-Matriz(n:m)(l:p) = Matriz_1
+!atribui à matriz de elementos entre a n-ésima e a n-ésima linha de
+!i em i e entre a l-ésima e a p-ésima coluna de j em j como Matriz_1
+Matriz(n:m:i)(l:p:j) = Matriz_1
 ```
 
 ### **CONSTRUTORES**
