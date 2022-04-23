@@ -14,9 +14,7 @@ Para se executar um bloco de comandos apenas caso se satisfaça uma dada condiç
 
 ```c
 if (/*expressão lógica*/) {
-/*
-    Bloco de processos
-*/
+//    Bloco de processos
 }
 ```
 
@@ -30,13 +28,9 @@ Para se executar blocos de comandos distintos caso uma dada condição se satisf
 
 ```c
 if (/*expressão lógica*/) {
-/*
-    Bloco de processos caso VERDADEIRO
-*/
+//    Bloco de processos caso VERDADEIRO
 } else {
-/*
-    Bloco de processos caso FALSO
-*/
+//    Bloco de processos caso FALSO
 }
 ```
 
@@ -74,25 +68,21 @@ Para se executar um bloco de comandos de forma repetitiva uma dada quantidade de
 
 ```c
 for (/*condição inicial*/;/*condição final*/;/*incremento*/) {
-/*
-    Bloco de processos
-*/
+//Bloco de processos
 }
 ```
 
 ### ***CONSTRUTO*** *while*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 400px; margin-right: 2.5rem;" align = "left" src="./images/Construto WHILE.svg">
+  <img style = "width: 400px; margin-right: 2.5rem;" align = "left" src="./images/Construto DO-WHILE.svg">
 </div>
 
 Para se executar um bloco de comandos de forma repetitiva enquanto uma dada condição for satisfeita utilizamos do construto `while`
 
 ```c
 while (/*expressão lógica*/) {
-/*
-    Bloco de processos
-*/
+//    Bloco de processos
 }
 ```
 
