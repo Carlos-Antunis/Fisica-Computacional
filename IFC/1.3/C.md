@@ -65,6 +65,10 @@ if (/*expressão lógica*/) {
 }
 ```
 
+> **EXERCÍCIO 1.** Implemente um Código-fonte C para computar, caso hajam, as raízes de uma equação de segundo grau sabendo seus coeficientes.
+>
+>[Resposta](./programas/equacao_2grau.c)
+
 ## **ESTRUTURAS DE REPETIÇÃO**
 
 ### ***ESTRUTURA*** *for*
