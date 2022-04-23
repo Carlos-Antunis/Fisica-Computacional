@@ -102,6 +102,61 @@ Para se encerrar a atual repetição e seguir à próxima, utilizamos o comando 
 
 ### ***LISTAS***
 
+Para se armazenar uma lista de variáveis de um mesmo tipo, utilizamos: 
+
+```c
+tipo Lista_de_Variaveis[Quantidade];
+```
+
+Podemos acessar o valor de uma lista por meio do operador **[]**
+
+```c
+//atribui valor ao i-ésimo elemento na lista
+Lista[i] = valor;
+```
+
 ### ***MATRIZES***
 
+Para se armazenar uma matrizes de variáveis de um mesmo tipo, utilizamos: 
+
+```c
+tipo Matriz_de_Variaveis[Linhas][Colunas];
+```
+
+Podemos acessar o valor de uma matriz por meio do operador **[]**
+
+```c
+//atribui valor ao (i,j)-ésimo elemento na matriz
+Matriz[i][j] = valor;
+```
+
 ### ***CONSTRUTORES***
+
+Podemos inicializar listas de forma simplificada utilizando os construtores
+
+```c
+tipo Lista[Quantidade] = {
+    //inicializa o i-ésimo elemento como valor
+    [i] valor,
+
+    //inicializa do n-ésimo ao m-ésimo elemento como valor
+    [n ... m] valor,
+};
+```
+Podemos inicializar matrizes de forma simplificada utilizando os construtores
+
+```c
+tipo Matriz[Linhas][Colunas] = {
+    //inicializa o elemento da i-ésima linha da j-ésima coluna como valor
+    [i][j] valor,
+
+    //inicializa os elementos da i-ésima linha da l-ésima à p-ésima coluna como valor
+    [i][l ... p] valor,
+
+    //inicializa os elementos da j-ésima coluna da n-ésima à m-ésima linha como valor
+    [n ... m][j] valor,
+
+    //inicializa os elementos da l-ésima à p-ésima coluna da n-ésima à m-ésima linha como valor
+    [n ... m][l ... p] valor,
+};
+```
