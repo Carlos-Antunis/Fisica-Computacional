@@ -71,8 +71,6 @@ if (/*expressão lógica*/) {
 
 ### ***ESTRUTURA*** *while*
 
-### ***ESTRUTURA*** *do ... while*
-
 ### ***COMANDO*** *break*
 
 ### ***COMANDO*** *continue*
