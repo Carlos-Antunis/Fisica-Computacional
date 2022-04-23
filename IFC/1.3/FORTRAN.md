@@ -207,4 +207,35 @@ Array = (/((expressao, I=i_Min,i_Max)J=j_Min,j_Max)/)
 
 ### ***CONSTRUTO*** *forall*
 
+Para se executar um bloco de operações sobre arrays para todas as possíveis combinações de certos índices, satisfazendo uma condição, utilizamos do construto `FORALL`
+
+```fortran
+FORALL (I=i_Min:i_Max, condição)
+    !Bloco de operações
+ENDFORALL
+```
+```fortran
+FORALL (I=i_Min:i_Max, J=j_Min:j_Max, condição)
+    !Bloco de operações
+ENDFORALL
+```
+
 ### ***CONSTRUTO*** *where*
+
+Para se executar um bloco de operações sobre arrays para todas os elementos que satisfazem uma dada condição utilizamos o construto `WHERE`
+
+```fortran
+WHERE (condição)
+    !Bloco de operações
+ENDWHERE
+```
+
+Podemos especificar, assim como em `IF ... THEN-ELSE` as operações a serem feitas caso contrário
+
+```fortran
+WHERE (condição)
+    !Bloco de operações 1
+ELSEWHERE
+    !Bloco de operações 1
+ENDWHERE
+```
