@@ -114,3 +114,10 @@ Para se encerrar a atual repetição e seguir à próxima, utilizamos o comando 
 ### ***MATRIZES***
 
 ### ***CONSTRUTORES***
+
+
+## **ESTRUTURAS MATRICIAIS**
+
+### ***CONSTRUTO*** *forall*
+
+### ***CONSTRUTO*** *where*
