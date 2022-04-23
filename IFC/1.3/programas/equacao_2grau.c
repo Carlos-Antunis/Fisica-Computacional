@@ -7,7 +7,7 @@ Programa para obter a solução de uma equação de segundo grau
 int main()
 {
 	double A,B,C;
-	double Descriminante;
+	double Descriminante, Raiz_do_Descriminante;
 	double Solucao_1, Solucao_2;
 
 	//Obter os coeficientes
@@ -23,9 +23,9 @@ int main()
 
 	if (Descriminante > 0.0) {
 		//Caso o descriminante seja nulo há duas soluções
-		Descriminante = sqrt(Descriminante);
-		Solucao_1 = (-B - Descriminante)/(2.0*A);
-		Solucao_2 = (-B + Descriminante)/(2.0*A);
+		Raiz_do_Descriminante = sqrt(Descriminante);
+		Solucao_1 = (-B - Raiz_do_Descriminante)/(2.0*A);
+		Solucao_2 = (-B + Raiz_do_Descriminante)/(2.0*A);
 
 		//Retornar a solução
 		printf("as solucoes sao x = %lf e x = %lf\n", Solucao_1, Solucao_2);
