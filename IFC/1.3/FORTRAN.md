@@ -13,9 +13,7 @@ Para se executar um bloco de comandos apenas caso se satisfaça uma dada condiç
 
 ```fortran
 IF (expressão lógica) THEN
-
     !Bloco de processos
-
 ENDIF
 ```
 
@@ -29,13 +27,9 @@ Para se executar blocos de comandos distintos caso uma dada condição se satisf
 
 ```fortran
 IF (expressão lógica) THEN
-
     !Bloco de processos caso VERDADEIRO
-
 ELSE
-
     !Bloco de processos caso FALSO
-
 ENDIF
 ```
 
@@ -73,25 +67,21 @@ Para se executar um bloco de comandos de forma repetitiva uma dada quantidade de
 
 ```fortran
 DO var = inicial, final, inc
-
     !Bloco de processos
-
 ENDDO
 ```
 
 ### ***CONSTRUTO*** *do while*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 400px; margin-right: 2.5rem;" align = "left" src="./images/Construto WHILE.svg">
+  <img style = "width: 400px; margin-right: 2.5rem;" align = "left" src="./images/Construto DO-WHILE.svg">
 </div>
 
 Para se executar um bloco de comandos de forma repetitiva enquanto uma dada condição for satisfeita utilizamos do construto `DO WHILE`
 
 ```fortran
 DO WHILE (expressão lógica)
-
     !Bloco de processos
-
 ENDDO
 ```
 
