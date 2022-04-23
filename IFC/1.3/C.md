@@ -7,7 +7,7 @@
 ### ***ESTRUTURA*** *if*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/construto IF.svg">
+  <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF.svg">
 </div>
 
 Para se executar um bloco de comandos apenas caso se satisfaça uma dada condição utilizamos a estrutura `if`
@@ -24,7 +24,7 @@ if (/*expressão lógica*/)
 ### ***ESTRUTURA*** *if-else*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-left: 2.5rem;" align = "right" src="./images/construto IF-ELSE.svg">
+  <img style = "width: 550px; margin-left: 2.5rem;" align = "right" src="./images/Construto IF-ELSE.svg">
 </div>
 
 Para se executar blocos de comandos distintos caso uma dada condição se satisfaça ou não utilizamos da estrutura `if-else`
@@ -44,7 +44,7 @@ if (/*expressão lógica*/) {
 ### ***ESTRUTURA*** *if-else if-else*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/construto IF-ELSEIF-ELSE.svg">
+  <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF-ELSEIF-ELSE.svg">
 </div>
 
 Para se executar blocos de comando para um caso dentre vários possíveis utilizamos a estrutura `if-else if-else`
@@ -73,11 +73,11 @@ if (/*expressão lógica*/) {
 
 ### ***ESTRUTURA*** *for*
 
+### ***ESTRUTURA*** *while*
+
 ### ***COMANDO*** *break*
 
 ### ***COMANDO*** *continue*
-
-### ***ESTRUTURA*** *while*
 
 ## **ARRAYS**
 
