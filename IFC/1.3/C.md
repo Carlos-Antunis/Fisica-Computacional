@@ -7,14 +7,13 @@
 ### ***CONSTRUTO*** *if*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF.svg">
+  <img style = "width: 450px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF.svg">
 </div>
 
 Para se executar um bloco de comandos apenas caso se satisfaça uma dada condição utilizamos o construto `if`
 
 ```c
-if (/*expressão lógica*/)
-{
+if (/*expressão lógica*/) {
 /*
     Bloco de processos
 */
@@ -24,7 +23,7 @@ if (/*expressão lógica*/)
 ### ***CONSTRUTO*** *if-else*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-left: 2.5rem;" align = "right" src="./images/Construto IF-ELSE.svg">
+  <img style = "width: 450px; margin-left: 2.5rem;" align = "right" src="./images/Construto IF-ELSE.svg">
 </div>
 
 Para se executar blocos de comandos distintos caso uma dada condição se satisfaça ou não utilizamos do construto `if-else`
@@ -44,24 +43,18 @@ if (/*expressão lógica*/) {
 ### ***CONSTRUTO*** *if-else if-else*
 
 <div style = "display: flex-box;width: 300">
-  <img style = "width: 550px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF-ELSEIF-ELSE.svg">
+  <img style = "width: 450px; margin-right: 2.5rem;" align = "left" src="./images/Construto IF-ELSEIF-ELSE.svg">
 </div>
 
 Para se executar blocos de comando para um caso dentre vários possíveis utilizamos o construto `if-else if-else`
 
 ```c
 if (/*expressão lógica*/) {
-/*
-    Bloco de processos caso if
-*/
+//    Bloco de processos caso if
 } else if (/*expressão lógica 2*/) {
-/*
-    Bloco de processos caso else if
-*/
+//    Bloco de processos caso else if
 } else {
-/*
-    Bloco de processos caso else
-*/
+//    Bloco de processos caso else
 }
 ```
 
@@ -73,11 +66,42 @@ if (/*expressão lógica*/) {
 
 ### ***CONSTRUTO*** *for*
 
+<div style = "display: flex-box;width: 300">
+  <img style = "width: 450px; margin-left: 2.5rem;" align = "right" src="./images/Construto FOR.svg">
+</div>
+
+Para se executar um bloco de comandos de forma repetitiva uma dada quantidade de vezes utilizamos o construto `for`
+
+```c
+for (/*condição inicial*/;/*condição final*/;/*incremento*/) {
+/*
+    Bloco de processos
+*/
+}
+```
+
 ### ***CONSTRUTO*** *while*
 
+<div style = "display: flex-box;width: 300">
+  <img style = "width: 400px; margin-right: 2.5rem;" align = "left" src="./images/Construto WHILE.svg">
+</div>
+
+Para se executar um bloco de comandos de forma repetitiva enquanto uma dada condição for satisfeita utilizamos do construto `while`
+
+```c
+while (/*expressão lógica*/) {
+/*
+    Bloco de processos
+*/
+}
+```
 ### ***COMANDO*** *break*
 
+Para se encerrar uma estrutura de repetição de imediato, utilizamos o comando `break`
+
 ### ***COMANDO*** *continue*
+
+Para se encerrar a atual repetição e seguir à próxima, utilizamos o comando `continue`
 
 ## **ARRAYS**
 
