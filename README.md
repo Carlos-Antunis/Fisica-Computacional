@@ -65,7 +65,15 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 
 #### *Capítulo 1.4.* [Funções e subrotinas em C](./IFC/1.4/C.md)
 
+> - Funções
+> - Subrotinas
+> - Recursividade
+
 #### *Capítulo 1.4.* [Funções e subrotinas em FORTRAN](./IFC/1.4/FORTRAN.md)
+
+> - Funções
+> - Subrotinas
+> - Recursividade
 
 ## MÓDULO 2. FÍSICA COMPUTACIONAL
 
