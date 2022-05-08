@@ -111,4 +111,4 @@ A *GNU Scientific Library (GSL)* é uma bibioteca numérica em linguagem C sob a
 
 ### [Numerical Recipes](http://numerical.recipes/)
 
-A *Numerical Recipes (NR)* é uma biblioteca numérica em linguagem C e FORTRAN 90 sob licensa prioritária. Esta fornece geradores de números aleatórios, métodos de álgebra linear, dentre outros. Devido à sua licensa, códigos-fonte escritos utilizando a *NR* possuem restrição à sua divulgação.
+A *Numerical Recipes (NR)* é uma biblioteca numérica em linguagem C e FORTRAN 90 sob licensa prioritária, ou seja, para se obter o acesso a mesma deve-se comprar o conteúdo distribuído. Esta fornece geradores de números aleatórios, métodos de álgebra linear, dentre outros. Devido à sua licensa, códigos-fonte escritos utilizando a *NR* não podem ser divulgados mesmo após a compra de seus materiais.
