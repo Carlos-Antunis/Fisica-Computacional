@@ -59,6 +59,7 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 >   - Construto do while
 >   - Construto forall
 
+<!--
 ### ***FUNÇÕES E SUBROTINAS***
 
 #### *Capítulo 1.4.* [Subprocessos e funções em C](./IFC/1.4/C.md)
@@ -101,13 +102,14 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 
 #### *Apêndice A.1.* [Elementos de Xmgrace](./APDX/A.1/grace.md)
 
-
+-->
 ## **BIBLIOTECAS DE MÉTODOS NUMÉRICOS**
 
 ### [GNU Scientific Library](https://www.gnu.org/software/gsl/)
 
 A *GNU Scientific Library (GSL)* é uma bibioteca numérica em linguagem C sob a licensa GNU General Public License. Esta fornece geradores de números aleatórios, funções matemáticas especiais, dentre outros. Devido à sua licensa, códigos-fonte escritos utilizando a *GSL* podem ser divulgados sem nenhuma restrição.
 
+<!--
 ### [Numerical Recipes](http://numerical.recipes/)
 
 A *Numerical Recipes (NR)* é uma biblioteca numérica em linguagem C e FORTRAN 90 sob licensa prioritária, ou seja, para se obter o acesso a mesma deve-se comprar o conteúdo distribuído. Esta fornece geradores de números aleatórios, métodos de álgebra linear, dentre outros. Devido à sua licensa, códigos-fonte escritos utilizando a *NR* não podem ser divulgados mesmo após a compra de seus materiais.
