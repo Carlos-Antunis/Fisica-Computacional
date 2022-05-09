@@ -80,6 +80,10 @@ tipo nome_da_funcao(/*parâmetros*/)
 >
 >[Resposta](./programas/fatorial.c)
 
+> EXERCÍCIO 3. Implemente um código capaz de computar o n-ésimo termo da sequência de Fibonacci.
+>
+>[Resposta](./programas/fibonacci.c)
+
 ## ***SUBROTINAS***
 
 Subprocessos podem ser declarados como funções que não retornam valor
