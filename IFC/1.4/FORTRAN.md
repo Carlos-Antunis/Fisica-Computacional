@@ -171,6 +171,7 @@ END SUBROUTINE
 >
 >END PROGRAM MDC_Euclides
 >```
+
 > EXERCÍCIO 2. Implemente um código capaz de computar o valor do fatorial de um natural.
 >
 >[Resposta](./programas/fatorial.f95)
