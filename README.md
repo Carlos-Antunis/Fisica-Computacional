@@ -65,13 +65,11 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 
 > - Subrotinas
 > - Funções
-> - Modularização
 
 #### *Capítulo 1.4.* [Subprocessos e funções em FORTRAN](./IFC/1.4/FORTRAN.md)
 
 > - Subrotinas
 > - Funções
-> - Modularização
 
 <!--
 ## **MÓDULO 2. FÍSICA COMPUTACIONAL**
