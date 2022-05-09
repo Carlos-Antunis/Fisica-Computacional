@@ -175,3 +175,7 @@ END SUBROUTINE
 > EXERCÍCIO 2. Implemente um código capaz de computar o valor do fatorial de um natural.
 >
 >[Resposta](./programas/fatorial.f95)
+
+> EXERCÍCIO 3. Implemente um código capaz de computar o n-ésimo termo da sequência de Fibonacci.
+>
+>[Resposta](./programas/fibonacci.f95)
