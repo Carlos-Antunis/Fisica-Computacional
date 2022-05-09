@@ -59,7 +59,6 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 >   - Construto do while
 >   - Construto forall
 
-<!--
 ### ***FUNÇÕES E SUBROTINAS***
 
 #### *Capítulo 1.4.* [Subprocessos e funções em C](./IFC/1.4/C.md)
@@ -67,7 +66,7 @@ A Física Computacional consiste no ramo da Física teórica moderna que se util
 > - Subrotinas
 > - Funções
 > - Modularização
-
+<!--
 #### *Capítulo 1.4.* [Subprocessos e funções em FORTRAN](./IFC/1.4/FORTRAN.md)
 
 > - Subrotinas
