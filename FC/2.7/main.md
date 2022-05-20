@@ -1,3 +1,0 @@
-# **EQUAÇÕES DIFERENCIAIS ORDINÁRIAS**
-
-[Voltar ao sumário](../../README.md)
