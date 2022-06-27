@@ -1,113 +1,135 @@
-# **MÉTODOS DE FÍSICA COMPUTACIONAL**
+# **FÍSICA COMPUTACIONAL**
 
-A Física Computacional consiste no ramo da Física teórica moderna que se utiliza de algoritmos numéricos para a obtenção de resultados, os quais seriam muito complexos, ou até impossíveis, de se obter analíticamente. Problemas envolvendo Física avançada são geralmente muito difíceis de se resolver exatamente, de tal maneira que a implementação de rotinas computacionais torna-se vital para um Físico teórico atualmente.
+![Fortran language](https://img.shields.io/badge/Linguagem%20Fortran-4d41b1?style=plastic&logo=fortran&logoColor=white)
+![C language](https://img.shields.io/badge/Linguagem%20C-555555?style=plastic&logo=c&logoColor=white)
+![C++ language](https://img.shields.io/badge/Linguagem%20C++-f34b7d?style=plastic&logo=cplusplus&logoColor=white)
+![Python language](https://img.shields.io/badge/Linguagem%20Python-3572A5?style=plastic&logo=python&logoColor=white)
 
-## **MÓDULO 1. INTRODUÇÃO À FÍSICA COMPUTACIONAL**
+A Física computacional consiste no ramo da Física teórica moderna que se utiliza de algoritmos computacionais para a obtenção de resultados aproximados para situações que seriam muito complexas ou até, em certos casos, impossíveis de se resolver exatamente. Problemas de Física avançada comumente exigem o emprego de análise e simulação computacional, de tal maneira que a capacidade de implementar rotinas computacionais torna-se vítal para todo e qualquer físico teórico atualmente.
 
-### ***INTRODUÇÃO À COMPUTAÇÃO***
+> **AVISO:** As anotações são direcionadas às linguagens C e Fortran 95, as quais são mais utilizadas no meio científico, no entanto há também arquivos fontes dos problemas, correspondentes ao módulo 1, resolvidos noutras linguagens, sinta-se a vontade para [visualizar os códigos-fonte](./1.IFC/Codes/).
 
-#### *Capítulo 1.1.* [Elementos do terminal linux](./IFC/1.1.md)
+## MÓDULO 1. Introdução à física computacional
 
-> - Comandos básicos do terminal linux
->   - Navegação pelo terminal
->   - Manipulação de arquivos e diretórios
-> - Controle de processos
+### ***Introdução à computação***
 
-### ***ELEMENTOS DE PROGRAMAÇÃO***
+---
 
-#### *Capítulo 1.2.* [Elementos de programação em C](./IFC/1.2/C.md)
+Capítulo 1.1. [Elementos de terminal linux](./1.IFC/Notes/1/1.md)
 
-> - Estrutura de um código-fonte em C
->   - Executando um programa em C
-> - Variáveis e operadores
->   - Tipos elementares de dados
-> - Leitura e escrita de dados
-> - Funções matemáticas elementares
-> - Arrays
->   - Listas e matrizes
->   - Construtores
+---
 
-#### *Capítulo 1.2.* [Elementos de programação em FORTRAN](./IFC/1.2/FORTRAN.md)
+- Manipulação de pastas e arquivos
+    - Navegando pelos diretórios
+    - Gerando e modificando arquivos e diretórios
+- Controle de processos
+    - Listando processos
+    - Manipulando a execução de processos
 
-> - Estrutura de um código-fonte em FORTRAN
->   - Executando um programa em FORTRAN
-> - Variáveis e operadores
->   - Tipos elementares de dados
-> - Leitura e escrita de dados
-> - Funções matemáticas elementares
-> - Arrays
->   - Listas e matrizes
->   - Construtores
 
-### ***CONTROLE DE FLUXO***
+### ***Introdução à programação***
 
-#### *Capítulo 1.3.* [Controle de fluxo em C](./IFC/1.3/C.md)
+---
 
-> - Estruturas condicionais
->   - Construto if
-> - Estruturas de repetição
->   - Construto for
->   - Construto while
+Capítulo 1.2. [Elementos de programação em C](./1.IFC/Notes/2/C.md)
 
-#### *Capítulo 1.3.* [Controle de fluxo em FORTRAN](./IFC/1.3/FORTRAN.md)
+---
 
-> - Estruturas condicionais
->   - Construto if
->   - Construto where
-> - Estruturas de repetição
->   - Construto do
->   - Construto do while
->   - Construto forall
+- Iniciando em programação
+    - Estrutura base de um código-fonte
+    - Compilando e executando
+    - Lendo e escrevendo dados no terminal
+- Tipos elementares de dados
+    - Variáveis alfanuméricas
+    - Variáveis lógicas
+    - Variáveis numéricas
+- Funções matemáticas elementares
 
-### ***FUNÇÕES E SUBROTINAS***
+---
 
-#### *Capítulo 1.4.* [Subprocessos e funções em C](./IFC/1.4/C.md)
+Capítulo 1.2. [Elementos de programação em Fortran 95](./1.IFC/Notes/2/Fortran.md)
 
-> - Subrotinas
-> - Funções
+---
 
-#### *Capítulo 1.4.* [Subprocessos e funções em FORTRAN](./IFC/1.4/FORTRAN.md)
+- Iniciando em programação
+    - Estrutura base de um código-fonte
+    - Compilando e executando
+    - Lendo e escrevendo dados no terminal
+- Tipos elementares de dados
+    - Variáveis alfanuméricas
+    - Variáveis lógicas
+    - Variáveis numéricas
+- Funções matemáticas elementares
 
-> - Subrotinas
-> - Funções
+---
 
-<!--
-## **MÓDULO 2. FÍSICA COMPUTACIONAL**
+Capítulo 1.3. [Subprocessos e controle de fluxo em C](./1.IFC/Notes/3/C.md)
 
-### ***NÚMEROS ALEATÓRIOS***
+---
 
-#### *Capítulo 2.1.* [Geração de números aleatórios](./FC/2.1/main.md)
-#### *Capítulo 2.2.* [Ajuste de funções](./FC/2.2/main.md)
+- Controle de fluxo
+    - Controle condicional
+    - Controle de repetição
+    - Estruturas matriciais de dados
+    - Lendo e escrevendo dados em arquivos
+- Subprocessos
+    - Subrotinas
+    - Funções
 
-### ***OBTENÇÃO DE RAÍZES***
+---
 
-#### *Capítulo 2.3.* [Equações não-lineares](./FC/2.3/main.md)
-#### *Capítulo 2.4.* [Sistemas de equações lineares](./FC/2.4/main.md)
-#### *Capítulo 2.5.* [Auto-sistemas](./FC/2.5/main.md)
+Capítulo 1.3. [Subprocessos e controle de fluxo em Fortran 95](./1.IFC/Notes/3/Fortran.md)
 
-### ***CÁLCULO NUMÉRICO***
+---
 
-#### *Capítulo 2.6.* [Derivação e integração numérica](./FC/2.6/main.md)
-
-### ***EQUAÇÕES DIFERENCIAIS***
-
-#### *Capítulo 2.7.* [Equações diferenciais ordinárias](./FC/2.7/main.md)
-#### *Capítulo 2.8.* [Equações diferenciais parciais](./FC/2.8/main.md)
-
-## **APÊNDICE**
-
-### ***PLOTAGEM GRÁFICA DE DADOS***
-
-#### *Apêndice A.1.* [Elementos de Xmgrace](./APDX/A.1/grace.md)
-
--->
-## **BIBLIOTECAS DE MÉTODOS NUMÉRICOS**
-
-### [GNU Scientific Library](https://www.gnu.org/software/gsl/)
-
-A *GNU Scientific Library (GSL)* é uma bibioteca numérica em linguagem C sob a licensa GNU General Public License. Esta fornece geradores de números aleatórios, funções matemáticas especiais, dentre outros. Devido à sua licensa, códigos-fonte escritos utilizando a *GSL* podem ser divulgados sem nenhuma restrição.
+- Controle de fluxo
+    - Controle condicional
+    - Controle de repetição
+    - Estruturas matriciais de dados
+    - Lendo e escrevendo dados em arquivos
+- Subprocessos
+    - Subrotinas
+    - Funções
 
 <!--
-### [Numerical Recipes](http://numerical.recipes/)
+## MÓDULO 2. Métodos computacionais aplicados à física
 
-A *Numerical Recipes (NR)* é uma biblioteca numérica em linguagem C e FORTRAN 90 sob licensa prioritária, ou seja, para se obter o acesso a mesma deve-se comprar o conteúdo distribuído. Esta fornece geradores de números aleatórios, métodos de álgebra linear, dentre outros. Devido à sua licensa, códigos-fonte escritos utilizando a *NR* não podem ser divulgados mesmo após a compra de seus materiais.
+### ***Estatística e números aleatórios***
+
+---
+
+Capítulo 2.1. [Gerando números aleatórios]()
+
+---
+
+Capítulo 2.2. [Analise computacional de conjuntos de dados]()
+
+---
+
+### ***Solução numérica de equações diferenciais***
+
+---
+
+Capítulo 2.3. [Equações diferenciais ordinárias]()
+
+---
+
+Capítulo 2.4. [Equações diferenciais parciais]()
+
+---
+
+### ***Obtenção de raízes para equações***
+
+---
+
+Capítulo 2.5. [Equações não-lineares]()
+
+---
+
+Capítulo 2.6. [Sistemas de equações]()
+
+---
+
+Capítulo 2.7. [Problemas envolvendo autovalores e autovetores]()
+
+---
